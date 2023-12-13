@@ -31,3 +31,19 @@ img {
   font-family: 'Segoe  UI', Verdana, sans-serif;
   margin: 8px;
 }
+
+/* Adiccionando as propriedades flexbox */
+
+header, footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+ display: flex;
+ justify-content: flex-end;
+}
+
+li , .rede-soceal {
+  margin-left: 48px;
+}
